@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data — regenerable from nba_api; not committed
+data/
+*.parquet
+*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
